@@ -1,4 +1,4 @@
-- hosts: web
+- hosts: localhost
   tasks:
     - name: Install dumb init
       get_url:
